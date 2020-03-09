@@ -1,0 +1,19 @@
+(a) Summarize your approach to the problem, and how your code addresses the abstractions needed
+for matrix arithmetic.
+I wrote three functions that take two matrices and add, multiply and subtract each other and put the result into a
+new matrix. The most complicated of all of the matrix arithmetic functions was the multiplication function
+I used multiple for loops to go through the matrix and select the correct element. Then once the correct element is found
+the product of both is calculated and then put into a new matrix.
+
+(b) Analyze your benchmark observations: what does the timing suggest for the time complexity of
+addition, subtraction, and multiplication for two n × n matrices?
+The timing  suggests that the more elements in the matrix there are then the longer it will take to perform
+the different mathematical operations.
+
+(c) What is the arithmetic time complexity of your implementation of each operation, when done on
+two n × n matrices? Give tight asymptotic bounds.
+The time complexity of the matrix mathematical functions is O(n*k*n).
+
+(d) How could the code be improved in terms of usability, efficiency, and robustness?, efficiency, and robustness?
+addition, subtraction, and multiplication for two n × n matrices?
+The code could be improved by including templates or any of the extra credit opportunities offered in the assignment. 

@@ -1,0 +1,32 @@
+320 Lab Questions
+Meg Finnegan 
+
+
+1. The theoretical time complexity of my sorting algorithms, in terms of array
+size is O(n squared) worst case and O(n) best case for bubble sort.
+The best case for insertion sort is also O(n) and the worst case is O(n squared).
+Selection sort has a best case of O(n) and a worst case of O(n squared) but it also
+has less swaps (n) than the other two algorithms.
+
+2. The timing of all of the sorting algorithms greatly increases
+when the size of the array increases. When the array was sorted backwards the time
+the algorithms took a greater amount of time to sort the elements. The data collected
+can be used to rectify this because the time in all of the data points for the backwards
+array is greater than the rest and the backwards array is the worst case for sorting so
+it has the time complexity of O(n squared).
+
+3. Graphs in paper copy of lab.
+
+4. Each algorithm takes the longest amount of time to sort the array out of
+all of the algorithms. When the array had all random elements, the time was
+very similar to the worst case taking over 200 seconds to run with 250000 elements
+in the array. The best case for all of the algorithms is the sorted array since it
+did not have to actually swap any of the elements. Insertion sort actually never reached
+a time above 0 for the best case scenario. The array that had a lot of duplicates had an
+average time for all of the algorithms, mostly somewhere in between the best and worst cases.
+
+5. The code could be improved for usability by creating a better menu that gives you
+options for all of the different times and array types as well as choice of algorithm.
+The efficiency could be improved by using more dynamic memory and using a faster algorithm
+to sort the arrays. Robustness of the code could be improved by using a template so that I
+could use any data type for the code.
